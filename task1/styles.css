@@ -1,0 +1,25 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    cursor: pointer;
+}
+
+#paginationButtons {
+    margin-top: 10px;
+}
+
+#paginationButtons button {
+    margin-right: 5px;
+    cursor: pointer;
+}

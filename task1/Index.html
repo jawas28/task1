@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortable and Paginated Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sortable and Paginated Table</h1>
+
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">ID</th>
+                <th onclick="sortTable(1)">Name</th>
+                <th onclick="sortTable(2)">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be populated dynamically -->
+        </tbody>
+    </table>
+
+    <div id="paginationButtons">
+        <!-- Pagination buttons will be populated dynamically -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
